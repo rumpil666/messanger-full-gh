@@ -1,0 +1,44 @@
+.customInput {
+  min-height: 20px;
+  max-height: inherit;
+  max-width: 520px;
+  width: 100%;
+  position: relative;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  overflow-y: auto;
+  max-height: 150px;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &__input {
+    max-width: 520px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-font-4);
+    resize: none;
+    border: none;
+    outline: none;
+  }
+
+  &__placeholder {
+    position: absolute;
+    color: var(--color-font-3);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+  }
+}
+
+.isEmpty {
+  opacity: 1;
+}

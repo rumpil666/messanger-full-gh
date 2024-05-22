@@ -1,0 +1,25 @@
+.page {
+  max-width: 906px;
+  width: 100%;
+  border-right: 1px solid var(--color-line-3);
+  border-left: 1px solid var(--color-line-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__sidebar {
+    border-right: 1px solid var(--color-line-3);
+    max-width: 250px;
+    width: 100%;
+    flex: 30%;
+    height: 100vh;
+  }
+
+  &__chat {
+    flex: 70%;
+  }
+}
+
+.subtitle {
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+body {
+    background: var(--color-back-main);
+    min-height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-family: var(--var-jost), sans-serif;
+}

@@ -1,0 +1,36 @@
+.currentUser {
+  margin: 3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  &__avatar {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
+
+  &__title {
+    max-width: 155px;
+    overflow: hidden;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+  }
+
+  &__button {
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-button);
+    transition: all 0.2s linear;
+
+    &:hover {
+      color: var(--color-icon);
+      background-color: var(--color-button-2);
+    }
+  }
+}

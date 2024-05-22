@@ -1,0 +1,25 @@
+.messageWindow {
+  overflow-y: auto;
+  height: 100%;
+
+  &__time {
+    position: sticky;
+    top: 17px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.26px;
+    z-index: 10;
+  }
+
+  &__container {
+    padding: 17px 31px 17px 16px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+.chatList {
+  height: calc(100% - 56px);
+
+  &__field {
+    padding: 0 5px;
+  }
+
+  &__title {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  &__list {
+    overflow-y: auto;
+    height: calc(100% - 38px);
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

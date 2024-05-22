@@ -1,0 +1,23 @@
+.userItem {
+  margin: 3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  color: black;
+
+  &__title {
+    max-width: 155px;
+    color: black;
+    overflow: hidden;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    text-align: start;
+    font-weight: 600;
+    font-size: 16px;
+  }
+}

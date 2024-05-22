@@ -1,0 +1,12 @@
+.upload {
+  margin: 0 8px 16px 12px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &__input {
+    display: none;
+  }
+}
